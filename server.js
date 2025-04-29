@@ -62,7 +62,7 @@ app.post("/place-order", async (req, res) => {
 
     const mailOptions = {
       from: `"Order from Cart" <${email}>`,
-      to: "manojpolevault1202@gmail.com",
+      to: "jais1829@gmail.com",
       subject: "New Customer Order Received",
       html: htmlContent,
     };
